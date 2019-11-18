@@ -1,0 +1,79 @@
+.import{
+    display: flex;
+    width: 100%;
+    height: 600px;
+}
+.wrap1200{
+    width: 200px;
+}
+
+.fl{
+    width: 200px;
+}
+.l2{
+    height: 300px;
+    width: 200px;
+    background-color: rgb(54, 23, 190);
+}
+.personalInfor{
+    height: 165px;
+    width: 200px;
+    padding-top:15px;
+    text-align: center;
+    background: url("../images/用户名背景图.jpg")
+}
+.headPortrait{
+    display: block;
+    width: 80px;
+    height: 80px;
+    border-radius:100%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+a{
+    color: #333;
+}
+.img1{
+    width: 100%;
+    height: 80px;
+}
+
+.personalName{
+    text-align: center;
+    display: block;
+    overflow: hidden;
+    font-size: 18px;
+    height: 44px;
+    line-height: 44px;
+    margin: 0;
+}
+.manageBtn{
+    display: inline-block;
+    width: 74px;
+    height: 26px;
+    border-radius: 20px;
+    background: #faa046;
+    line-height: 26px;
+    color: #fff;
+    font-size: 14px;
+}
+.foot{
+    background: #999999;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.d0{
+    width:100%;
+    height:808px; 
+    overflow:hidden;
+    margin:0;
+    padding:0;
+    background-color: rgb(250, 250, 250);
+}
+.d1{
+    height: 767.4px;
+}

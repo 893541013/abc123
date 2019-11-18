@@ -1,0 +1,30 @@
+<script language="JavaScript">
+  
+    c0off = new Image(80,30); c0off.src ="./../img/1.jpg";  
+    c0on = new Image(80,30); c0on.src = "./../img/2.jpg";  
+    function img_act(imgName)  
+    {  
+    imgOn = eval(imgName+"on.src");  
+    document[imgName].src = imgOn;  
+    }  
+    
+    function img_inact(imgName)  
+    {  
+    imgOff = eval(imgName+"off.src");  
+    document[imgName].src = imgOff;  
+    }  
+    
+    function erase()  
+    {  
+    window.status="网页教学网";  
+    }  
+    
+    function moveover(txt)  
+    {  
+    window.status=txt;  
+    }  
+    </script></p>  
+    <a href=intex.htm  
+    onmouseover="img_act('c0');moveover('图片名');return true;"  
+    onmouseout="img_inact('c0');return true;"><img  
+    src="./../img/1.jpg" border="0" width="80" height="30" name="c0"></a> 

@@ -1,0 +1,34 @@
+.dd{
+   
+    border-bottom: 1px solid #aaa;
+}
+.bb{
+    position: relative;
+    left: 1200px;
+    margin-bottom: 30px;
+}
+.foot{
+    background: #999999;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.pp{
+    height: 245.8px;
+}
+.px{
+    
+    font-size: 2em;
+    left: 20px;
+    text-align: center;
+}
+.e1{
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid rgb(153, 146, 146);
+    background: url("../images/蓝2.jpg");
+    opacity: .6;
+}

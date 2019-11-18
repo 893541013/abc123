@@ -1,0 +1,30 @@
+.d{
+    overflow: hidden;
+}
+.p0{
+    border:2.5px solid rgb(47, 189, 19);
+}
+.img{
+    height: 90px;
+    width: 100px;
+    float: left;
+    margin-left: 175px;
+    margin-top: 0px;
+}
+.p1{
+    display: block;
+    overflow: hidden;
+    line-height: 1.6;
+    color:rgb(92, 84, 84);
+    font-size: 30px;
+    float: left;
+    padding-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.p2{
+    font-size: 16px;
+    float: right;
+    margin-right: 150px;
+    color: black;
+    padding-top: 25px;
+}

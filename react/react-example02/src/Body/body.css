@@ -1,0 +1,32 @@
+.test{
+    background-color: aqua;
+}
+.body_kuang_1 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: auto;
+    padding: 20px 40px;
+  }
+.body_kuang_2 {
+    width: 310px;
+    height: 310px;
+  }
+.body_kuang_3 {
+    bottom: 0;
+    height: auto;
+  }
+.body_kuang_4 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: auto;
+    padding: 20px 40px;
+  }
+  .body_kuang_in_one {
+    margin: 30px auto 25px;
+  }

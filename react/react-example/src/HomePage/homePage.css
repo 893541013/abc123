@@ -1,0 +1,33 @@
+.img{
+    height: 250px;
+    width: 100%
+    
+}
+.d{
+    width: 70%;
+    margin: auto;
+    position: relative;
+}
+.s{
+    text-align: center;
+    background: url("../images/搜索.png") no-repeat;
+    width: 500px;
+    margin-left: 500px;
+    margin-top: 25px;
+    background-position: 0% ;
+    position: relative;
+    height: 40px;
+}
+
+
+.ant-carousel .slick-slide {
+    text-align: center;
+    height: 160px;
+    line-height: 160px;
+    background: #364d79;
+    overflow: hidden;
+  }
+  
+  .ant-carousel .slick-slide h3 {
+    color: #fff;
+  }

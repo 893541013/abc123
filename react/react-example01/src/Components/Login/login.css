@@ -1,0 +1,69 @@
+.main{
+    height: 745px;
+    width: 100%;
+    background-image: url('./../image/h.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.main1{
+    height: 30px;
+    width: 100%;
+    background-color:black;
+    font-size: 1.5em;
+    color: aliceblue;
+    font-family: "宋体";
+
+}   
+.main2{
+    position: absolute;
+    left: 35%;
+    top: 25%;
+    width: 500px;
+    height: 280px;
+    background-image: url('./../image/g.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: "楷体";
+    color:rgb(39, 136, 153);
+    border-radius: 20px;
+}
+
+.l1{
+    position: relative;
+    top:65px;
+    left:90px;
+    font-size: 1.5em;
+}
+.i1{
+    position: relative;
+    top:60px;
+    left:100px;
+    border-radius: 5px;
+    width: 200px;
+    height: 25px;
+    font-size: 1em;
+}
+.l2{
+    position: relative;
+    top: 85px;
+    left:90px;
+    font-size: 1.5em;
+}
+.i2{
+    position: relative;
+    top: 80px;
+    left:100px;
+    border-radius: 5px;
+    width: 200px;
+    height: 25px;
+    font-size: 1em;
+}
+.b1{
+    position: relative;
+    left: 160px;
+    top:110px;
+    height: 40px;
+    width: 140px;
+    font-family: "微软雅黑";
+    background-color: darkorange;
+}

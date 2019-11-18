@@ -1,0 +1,14 @@
+.px{
+    
+    font-size: 2em;
+    left: 20px;
+    text-align: center;
+}
+.e1{
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid rgb(153, 146, 146);
+    background: url("../images/蓝2.jpg");
+    opacity: .6;
+}
+
