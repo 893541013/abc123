@@ -21,3 +21,43 @@ li{
     color: #999999;
     line-height: 24px;
 }
+.btn1{
+    position: relative;
+    top: 50px;
+    left: 40%;
+    height: 30px;
+    width: 300px;
+}
+.cmanage{
+    width: 200px;
+}
+.cpsw{
+    border-top: 1px solid rgb(145, 141, 141);
+    position: relative;
+    top: 100px;
+}
+.ipt1{
+    position: relative;
+    top: 30px;
+    left: 40%;
+}
+.ipt2{
+    position: relative;
+    top: 40px;
+    left: 40%;
+}
+.ipt3{
+    position: relative;
+    top: 50px;
+    left: 40%;
+}
+.cpwdinpt{
+    width: 300px;
+}
+.btn2{
+    position: relative;
+    top: 60px;
+    left: 40%;
+    height: 30px;
+    width: 300px;
+}

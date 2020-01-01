@@ -2,6 +2,7 @@ import React from 'react';
 import img1 from '../images/登录背景图.jpg'
 import {Button} from 'antd';
 import {Link} from 'react-router-dom' 
+import axios from 'axios'
 
 var LogonCSS = require('./logon.css')
 export default class Logon extends React.Component{
@@ -17,12 +18,32 @@ export default class Logon extends React.Component{
             [e.target.name]:e.target.value
           })
     }
-    logon = e=>{
-          if(this.state.username==='Admin'&&this.state.password==='123'){
+    logon = e => {
+        axios.post('/register', {
+
+            username: this.state.username,
+            userpassword: this.state.password
+          })
+          
+          .then(function (response) {
+           
+            console.log(response);
+            if(response.data.result==true){
                 alert('注册成功!');
-          }else{
-                alert('注册失败,请重新注册');
-          }
+            }
+            if(response.data.result==false){
+                alert('注册失败，请重新注册!');
+            }
+            this.setState({
+                // movieData:response.data
+            })
+          })
+        
+          .catch(function (error) {
+        
+            console.log(error);
+        
+          });
     }
     render(){
         return(

@@ -1,7 +1,7 @@
 import React from 'react';
-import { Comment, Avatar, Form, Button, List, Input } from 'antd';
+import { Comment, Avatar, Form, Button, List, Input,message } from 'antd';
 import moment from 'moment';
-
+import Axios from 'axios';
 const { Search } = Input;
 const { TextArea } = Input;
 
@@ -31,11 +31,37 @@ const Editor = ({ onChange, onSubmit, submitting, value }) => (
 var EmailCss = require('./email.css');
 
 export default class Email01 extends React.Component {
-  state = {
-    comments: [],
-    submitting: false,
-    value: '',
-  };
+  constructor(props) {
+    super(props);
+    this.state = {
+        comments: [],
+        submitting: false,
+        value: '',
+    }
+}
+  complain = e => {
+    console.log(this.state.value)
+    Axios.post('/complain', {
+        value: this.state.value
+    })
+        .then(function (response) {
+                message.info('投诉成功 ！')
+            console.log(response);
+            this.setState({
+                // movieData:response.data
+            })
+        })
+
+        .catch(function (error) {
+
+            console.log(error);
+
+        });
+}
+onChange = ({ target: { value } }) => {
+  this.setState({ value });
+}
+  
 
   handleSubmit = () => {
     if (!this.state.value) {

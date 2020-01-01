@@ -1,5 +1,6 @@
 import React from 'react';
 import { Popover, Button, Collapse, Icon } from 'antd';
+import {Link} from "react-router-dom";
 
 const text = <span>点击后会显示文章全文点击后会显示文章全文
                   点击后会显示文章全文点击后会显示文章全文
@@ -17,14 +18,25 @@ const customPanelStyle = {
     overflow: 'hidden',
 };
 
+
 var FooterCss = require('./footer.css');
 export default class Footer extends React.Component {
+    constructor(props) {
+        super(props);
+
+    }
+    
     render() {
         return (
             <div className={FooterCss.importent}>
                 <div className={FooterCss.importent1}>
                     {/* 1 */}
-                    <div className={FooterCss.title}>热&nbsp;&nbsp;门&nbsp;&nbsp;文&nbsp;&nbsp;章</div>
+                    
+                    <div type="link" className={FooterCss.title}>
+                    <Link to="/hotarticle"><p>热&nbsp;&nbsp;门&nbsp;&nbsp;文&nbsp;&nbsp;章</p></Link>
+                        
+                        </div>
+
                     <div className={FooterCss.importent1_1}>
                         <div className={FooterCss.main1}>
                             <div className={FooterCss.inside1}>
@@ -94,7 +106,7 @@ export default class Footer extends React.Component {
                     </div>
                     <div className={FooterCss.til}>
                         <div className={FooterCss.til0}>
-                            <Button type="link">更多<Icon type="double-right" /></Button>
+                        <Link to="/hotarticle"><Button type="link">更多<Icon type="double-right" /></Button></Link>
                         </div>
                     </div>
                 </div>

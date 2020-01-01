@@ -1,0 +1,54 @@
+.body{
+    height: 630px;
+    width: 80%;
+    border: solid 1px rgb(141, 131, 131);
+    margin: auto;
+}
+.pagediv{
+    height: 50px;
+    width: 80%;
+    border: solid 1px rgb(141, 131, 131);
+    margin: auto;
+} 
+.pagebtn{
+    position: relative;
+    top: 25%;
+    left: 25%;
+}
+.li{
+    height: 105px;
+    width: 99.5%;
+    margin: auto;
+    border: solid 1px rgb(141, 131, 131);
+}
+.img{
+    height: 105px;
+    width: 20%;
+    
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-right: solid 1px rgb(141, 131, 131);
+}
+
+  .img:after{
+    content: '';
+    display: none;
+    height: 105px;
+    width: 20%;
+    position: relative;
+    bottom:8px;
+    background-size: 50%;
+    background-repeat: no-repeat;
+  
+  }
+  .img1:hover{
+   
+  }
+  .img1:hover:after{
+    display: block;
+  }
+  
+.descr{
+    height: 105px;
+    width: 80%;
+}
